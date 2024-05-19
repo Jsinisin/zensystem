@@ -1,0 +1,69 @@
+Steps:
+
+sudo dnf upgrade --refresh
+
+sudo dnf copr enable solopasha/hyprland
+
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+sudo dnf install hyprland-git waybar-git wlogout wofi dunst wlroots terminator kcalc kvantum mousepad thunar file-roller 
+thunar thunar-archive-plugin hyprpicker hyprpaper pavucontrol blueman bleachbit network-manager-applet zsh git wget tar 
+swappy grim slurp qimgv neofetch vim acpica-tools htop polkit-gnome kernel-devel kernel-headers gcc make patch
+
+-------
+
+wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d\  -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.1-2.noarch.rpm"
+
+sudo dnf install ./protonvpn-stable-release-1.0.1-2.noarch.rpm
+
+sudo dnf check-update && sudo dnf upgrade
+
+sudo dnf install --refresh proton-vpn-gnome-desktop 
+
+-------
+
+flatpak install 
+com.discordapp.Discord
+com.microsoft.Edge
+com.slack.Slack
+com.spotify.Client
+com.vivaldi.Vivaldi
+net.ankiweb.Anki
+org.gimp.GIMP
+org.mozilla.firefox
+org.standardnotes.standardnotes
+
+--------
+
+echo "# zensys" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Jsinisin/zensys.git
+git push -u origin main
+
+
+git remote add origin https://github.com/Jsinisin/zensystem.git
+git branch -M main
+git push -u origin main
+
+
+git config credential.helper store
+
+--------
+
+gnome-look:
+https://www.gnome-look.org/p/1316887
+
+kde-look:
+https://store.kde.org/p/1280231
+
+--------
+
+Reboot
+
+sudo vmware bundle
+
+/usr/bin/vmware-modconfig --console --install-all
+

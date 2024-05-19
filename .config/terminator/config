@@ -1,0 +1,21 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.92
+    background_type = image
+    background_image = /home/user/Pictures/Wallpapers/worldmap.jpg
+    foreground_color = "#f6f5f4"
+    scrollbar_position = hidden
+    title_transmit_bg_color = "#08080a"
+    title_inactive_fg_color = "#5e5c64"
+    title_inactive_bg_color = "#0c0f14"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
