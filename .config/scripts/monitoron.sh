@@ -1,1 +1,1 @@
-wlr-randr --output DP-2 --on
+hyprctl dispatch dpms on DP-2
