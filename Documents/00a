@@ -1,1 +1,10 @@
 wget https://drive.proton.me/urls/A81K35Q1FM#L4btTwA9rvF0
+
+
+iasl -tc ssdt_csc3551.dsl
+
+sudo cp -f ssdt_csc3551.aml /boot
+
+sudo cp -f 01_acpi /etc/grub.d
+
+sudo chmod +x /etc/grub.d/01_acpi
