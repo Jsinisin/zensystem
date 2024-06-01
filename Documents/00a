@@ -8,3 +8,5 @@ sudo cp -f ssdt_csc3551.aml /boot
 sudo cp -f 01_acpi /etc/grub.d
 
 sudo chmod +x /etc/grub.d/01_acpi
+
+https://drive.proton.me/urls/XCBT5DY9JR#ZA0YXOhTwpl9
