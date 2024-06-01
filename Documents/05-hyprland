@@ -7,9 +7,6 @@ cd Hyprland
 make all
 sudo make install
 
-cd ..
-rm -rf Hyprland
-
 cd ~/debian-hyprland
 
 sudo mkdir /usr/share/wayland-sessions
