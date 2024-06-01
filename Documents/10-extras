@@ -10,16 +10,19 @@ sudo cp -f 01_acpi /etc/grub.d
 
 sudo chmod +x /etc/grub.d/01_acpi
 
+-------------------------------------------------------------
+
 (vmware)
 https://drive.proton.me/urls/XCBT5DY9JR#ZA0YXOhTwpl9
+
 
 (slack)
 https://drive.proton.me/urls/2GC5KX0SPW#vdXDT6une1zP
 
 
-
 (standard notes)
 https://github.com/standardnotes/desktop/releases/download/v3.22.11/standard-notes-3.22.11-linux-amd64.deb
+
 
 (Discord)
 https://drive.proton.me/urls/7KMNC1BMX0#LSPjecIGdpN0
