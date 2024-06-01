@@ -19,15 +19,13 @@ alias saa="sudo apt autoremove"
 alias sas="sudo apt search"
 
 # GRUB
-alias grubit="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias grubit="sudo grub-mkconfig -o /boot/grub/grub.cfg && sudo update-grub"
 
 # Vim
 alias svim="sudo vim"
 
 # Git
-alias gcom="git commit -a"
-alias gpush="git push -u origin main"
-alias sgit=/home/user/.config/scripts/subackup.sh
+
 
 # Commands
 alias act="sudo chmod +x"
