@@ -10,8 +10,3 @@ cd nwg-look-0.2.6
 
 make build
 sudo make install
-
-cd ..
-rm -rf nwg-look-0.2.6
-
-rm v0.2.6.zip
