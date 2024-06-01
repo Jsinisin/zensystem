@@ -2,7 +2,7 @@
 
 # Hyprland/Wayland Packages
  
- sudo apt install -y cliphist grim wofi swappy gvfs gvfs-backends terminator kcalc bleachbit dialog blueman mtools dosfstools avahi-daemon acpi acpid kitty pavucontrol pipewire playerctl polkitd python3-requests python3-pip slurp dunst waybar wget wl-clipboard wlogout xdg-user-dirs xdg-utils yad brightnessctl btop cava htop mousepad mpv mpv-mpris nvtop pamixer swaybg
+ sudo apt install -y cliphist grim wofi swappy gvfs gvfs-backends terminator kcalc bleachbit qimgv dialog blueman mtools dosfstools avahi-daemon acpi acpid kitty pavucontrol pipewire playerctl polkitd python3-requests python3-pip slurp dunst waybar wget wl-clipboard wlogout xdg-user-dirs xdg-utils yad brightnessctl btop cava htop mousepad mpv mpv-mpris nvtop pamixer swaybg
 
 
 sudo systemctl enable avahi-daemon
