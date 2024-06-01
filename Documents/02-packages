@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Hyprland/Wayland Packages
+ 
+ sudo apt install -y cliphist grim swappy gvfs gvfs-backends dialog mtools dosfstools avahi-daemon acpi acpid kitty pavucontrol pipewire playerctl polkitd python3-requests python3-pip slurp dunst waybar wget wl-clipboard wlogout xdg-user-dirs xdg-utils yad brightnessctl btop cava htop mousepad mpv mpv-mpris nvtop pamixer swaybg
+
+
+sudo systemctl enable avahi-daemon
+sudo systemctl enable acpid
