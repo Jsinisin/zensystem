@@ -14,4 +14,6 @@ sudo cp -f 01_acpi.txt /etc/grub.d
 
 sudo chmod +x /etc/grub.d/01_acpi.txt
 
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 
+sudo update-grub
