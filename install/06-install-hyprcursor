@@ -1,6 +1,8 @@
-git clone https://github.com/hyprwm/hyprcursor
+#!/usr/bin/env bash
 
-sudo apt install libzip-dev librsvg2-dev
+cd /home/user/.sources
+
+git clone https://github.com/hyprwm/hyprcursor
 
 cd hyprcursor
   
