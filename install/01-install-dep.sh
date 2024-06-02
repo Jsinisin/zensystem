@@ -10,4 +10,4 @@
   libxcb-dri3-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-present-dev libxcb-render-util0-dev libxcb-res0-dev libxcb-util-dev libxcb-xinerama0-dev 
   libxcb-xinput-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxkbregistry-dev libxml2-dev libxxhash-dev meson ninja-build openssl psmisc 
   python3-mako python3-markdown python3-markupsafe python3-yaml qt6-base-dev scdoc seatd spirv-tools vulkan-utility-libraries-dev wayland-protocols 
-  xdg-desktop-portal xwayland
+  xdg-desktop-portal xwayland libzip-dev librsvg2-dev
