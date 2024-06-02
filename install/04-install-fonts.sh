@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-sudo apt install -y unzip fonts-recommended fonts-font-awesome fonts-terminus
-
 mkdir -p ~/.local/share/fonts
 
 cd /tmp
