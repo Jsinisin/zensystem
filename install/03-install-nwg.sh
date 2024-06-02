@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-sudo apt install -y golang libgtk-3-dev libcairo2-dev libglib2.0-bin zip
-
 cd /home/user/.sources
 
 wget https://github.com/nwg-piotr/nwg-look/archive/refs/tags/v0.2.6.zip
