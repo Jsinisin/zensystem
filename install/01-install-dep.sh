@@ -11,4 +11,4 @@
   libxcb-xinput-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxkbregistry-dev libxml2-dev libxxhash-dev meson ninja-build openssl psmisc 
   python3-mako python3-markdown python3-markupsafe python3-yaml qt6-base-dev scdoc seatd spirv-tools vulkan-utility-libraries-dev wayland-protocols 
   xdg-desktop-portal xwayland libzip-dev librsvg2-dev golang libgtk-3-dev libcairo2-dev libglib2.0-bin zip unzip fonts-recommended fonts-font-awesome 
-  fonts-terminus
+  fonts-terminus gnupg2 software-properties-common
